@@ -8,6 +8,7 @@ import './App.css'
 import Homepage from "./pages/Homepage";
 import ScrollTrigger from "./components/Animations/ScrollTrigger";
 import Pinning from "./components/Animations/Pinning";
+import FadedText from "./components/Animations/FadedText";
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
         <Route path="/homepage" element={<Homepage />} />
         <Route path="/scroll-trigger" element={<ScrollTrigger />} />
         <Route path="/pinning" element={<Pinning />} />
+        <Route path="/faded-text" element={<FadedText />} />
       </Routes>
     </Router>
   )

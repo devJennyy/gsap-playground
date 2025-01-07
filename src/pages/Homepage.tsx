@@ -8,6 +8,10 @@ const Homepage = () => {
       label: "Pinning",
       href: "/pinning",
     },
+    {
+      label: "Faded Text",
+      href: "/faded-text",
+    },
   ];
 
   return (
